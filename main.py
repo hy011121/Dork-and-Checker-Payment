@@ -1,3 +1,4 @@
+# Publish by: Collee
 import os
 import requests
 from bs4 import BeautifulSoup
@@ -104,6 +105,7 @@ if option == '1':
     google_dork_search(formatted1_dorks, proxy, output_file)
 
 elif option == '2':
+    # cr by: @bsgopseller1
     # Payment Gateway Checker
     with open('urls.txt', 'r') as file:
         sites = file.read().splitlines()
